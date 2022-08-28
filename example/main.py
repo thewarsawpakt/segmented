@@ -1,8 +1,4 @@
 from segmented import *
-from flask import Flask
-
-app = Flask(__name__)
-
 
 @dataclass
 @apply_permissions(
